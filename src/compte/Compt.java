@@ -34,7 +34,7 @@ public void affichinfocompte(){
           System.out.println("votre taux d'interet est de : "+interets());
           System.out.println("votre solde sans interet est de : "+(getsolde()-interets()));
       }
-      public void ajouter(double montant){
+      public void ajouter(double montant){//
           this.solde=this.solde+montant;
       }
       public void retrait(double montant){
